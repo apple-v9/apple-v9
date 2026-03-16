@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Razor Health</title>
+</head>
+<body>
+
+<header>
+    <h1>Razor Health Portal</h1>
+</header>
+
+<!-- Layout fragment that accepts content -->
+<div th:fragment="layout(content)">
+    <div th:replace="${content}"></div>
+</div>
+
+<footer>
+    © Razor Health
+</footer>
+
+</body>
+</html>

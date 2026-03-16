@@ -23,6 +23,7 @@
 
 	<!-- All modules go here -->
 	<modules>
+		<module>razor-health-fe-th</module>
 		<module>razor-health-api</module>
 	</modules>
 
